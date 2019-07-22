@@ -1,13 +1,13 @@
 ##Logistic regression model simulated data generator
 
 ##Generate random x1 data using whatever distribution you like (eg rnorm, rbinom)
-x1 <- runif(1000, min = 0, max = 10)
+x1 <- rnorm(1000, mean = 0)
 
 ##Record true mean of x
-mean_x <- 5
+mean_x <- 0
 
 ##Define b1
-b1 <- 2
+b1 <- 0.5
 
 ##Define desired median probability of y
 p <- 0.1
